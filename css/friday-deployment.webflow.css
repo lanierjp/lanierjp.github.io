@@ -1201,17 +1201,26 @@ a {
 }
 
 .button-3 {
+  z-index: auto;
+  float: none;
+  clear: both;
   color: #000;
+  vertical-align: baseline;
   background-color: #fff;
   border-radius: 500px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 15px 25px;
   font-family: Oldbarrel, sans-serif;
   font-size: 30px;
   font-weight: 800;
   line-height: 25px;
+  display: inline-block;
   position: relative;
-  top: 56px;
-  left: -3px;
+  top: 75px;
+  bottom: 0%;
+  left: 40%;
+  right: auto;
 }
 
 .heading-6 {
@@ -1362,6 +1371,7 @@ a {
   height: 400px;
   min-height: 400px;
   max-height: 400px;
+  padding-top: 34px;
 }
 
 .slide-nav-2 {
@@ -1402,6 +1412,25 @@ a {
 
 .body-2 {
   background-color: #000;
+}
+
+.text-span-4 {
+  color: #4b8585;
+  -webkit-text-stroke-color: #4b8585;
+}
+
+.text-span-5, .text-span-6, .text-span-7 {
+  color: #4b8585;
+}
+
+.text-span-8 {
+  color: #4b8585;
+  text-align: left;
+}
+
+.link-block {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 991px) {
